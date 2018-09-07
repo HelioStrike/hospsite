@@ -68,16 +68,12 @@ ul img {
   padding-bottom: 5vh;
 }
 
-.cont:nth-of-type(2n+1) {
+.cont:nth-of-type(2n) {
   background: #dddddd;
 }
 
 .contitle {
   font-size: 40px;
-}
-
-#mapsdiv {
-  background-color: #eee;
 }
 
 #visdiv {
@@ -106,6 +102,16 @@ ul img {
   font-size: 18px;
 }
 
+.aboutus {
+  background: #dddddd;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+#aboutus-left {
+  display: none;
+}
+
 @media (max-width: 787px) {
     #visdiv {
         margin-top: -7vh;
@@ -121,6 +127,14 @@ ul img {
 
     #carousel img {
       height: 40vh;
+    }
+
+    #aboutus-left {
+      display: inherit;
+    }
+
+    #aboutus-right {
+      display: none;
     }
 
     .context {
