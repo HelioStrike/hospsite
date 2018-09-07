@@ -1,13 +1,4 @@
 $(document).ready(function(){
-  $('#slippry-demo').slippry({
-    adaptiveHeight: true,
-      useCSS: true,
-      autoHover: false,
-      transition: 'horizontal'
-    });
-});
-
-$(document).ready(function(){
   $("a").on('click', function(event) {
 
     if (this.hash !== "") {
@@ -24,6 +15,11 @@ $(document).ready(function(){
     }
   });
 });
+
+$('.carousel').carousel({
+  interval: 4000
+});
+
 
 var map;
 function initMap() {
