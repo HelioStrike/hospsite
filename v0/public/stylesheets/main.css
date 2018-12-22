@@ -26,21 +26,6 @@ ul img {
   height: 90vh;
 }
 
-/*
-#backcut {
-  position: fixed;
-  top: -80vw;
-  left: -100vw;
-  width: 300vw;
-  height: 200vh;
-  background-color: #dddddd;
-  z-index: -10;
-  -ms-transform: rotate(-23deg);
-  -webkit-transform: rotate(-23deg);
-  transform: rotate(-23deg);
-}
-*/
-
 .page-header {
   padding-bottom: 8px;
   background: #FF4500;
